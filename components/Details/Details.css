@@ -1,0 +1,47 @@
+#details_image {
+  height: 70vh;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 70vw;
+  padding: 20px;
+}
+
+#details_header {
+  margin: 10px 0;
+  text-align: end;
+}
+
+#details_author {
+  margin: 10px 0;
+  align-items: center;
+}
+
+#details_author_author {
+  text-align: center;
+  color: grey;
+  font-weight: 100;
+}
+
+#details_author_time {
+  text-align: center;
+}
+
+#details_description {
+  text-align: center;
+  margin: 10px 0;
+  font-size: large;
+}
+
+#details_link {
+  text-align: center;
+}
+
+#details_fullheader {
+  display: flex;
+}

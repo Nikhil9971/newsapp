@@ -1,0 +1,82 @@
+.Auth {
+  width: 30%;
+  margin: 50px auto;
+}
+
+.auth_header {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+#form_email {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 10px;
+}
+
+#form_email > label {
+  font-size: x-large;
+}
+
+#form_email > input {
+  width: inherit;
+  height: 20px;
+  padding: 7px;
+  font-size: large;
+  border-radius: 5px;
+}
+
+#auth_header {
+  font-weight: bold;
+  font-size: larger;
+  margin: 20px 10px;
+}
+
+#auth_description {
+  margin: 20px 10px;
+  font-weight: 500;
+}
+
+#auth_btn {
+  margin: 20px 10px;
+  width: 95%;
+  height: 40px;
+  cursor: pointer;
+  background-color: #3c4faf;
+  color: white;
+  border-radius: 5px;
+}
+
+#auth_btn:hover {
+  background-color: #0a1757;
+}
+
+#divider {
+  margin: 20px 0px;
+}
+
+#google_btn {
+  margin: 20px 10px;
+  width: 95%;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#google_btn:hover {
+  border: 3px solid black;
+}
+
+#google_icon {
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+}
